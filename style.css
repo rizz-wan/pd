@@ -5,12 +5,16 @@ body {
   background-color: #f0f2f6;
   border-left: 10px solid #FFDD95;
   border-right: 10px solid #FFDD95;
+  border-top: 10px solid #FFDD95;
+  overflow: hidden;
 }
 .content-container {
   margin: 0;
   padding: 0;
   overflow-y: auto;
+  height: 100vh;
 }
+
 .footer,
 .header {
   position: fixed;
@@ -21,4 +25,13 @@ body {
 
 .footer {
   bottom: 0;
+}
+
+.home-icon{
+    position: fixed;
+    bottom: 10px;
+}
+
+.card{
+    max-width: 250px;
 }
