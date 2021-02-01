@@ -13,6 +13,9 @@ body {
   padding: 0;
   overflow-y: auto;
   height: 100vh;
+  background-image: url('./back.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .footer,
