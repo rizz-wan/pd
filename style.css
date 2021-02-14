@@ -33,8 +33,15 @@ body {
 .home-icon{
     position: fixed;
     bottom: 10px;
+  transform: translate(-50%);
 }
 
 .card{
     max-width: 250px;
+}
+.bg1{
+  background-color:"#DEEEDD";
+}
+.bg2{
+  background-color:"#D9D3DC";
 }
